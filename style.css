@@ -1,0 +1,142 @@
+body 
+{
+  font-family: "Calibri", sans-serif;
+}
+.jumbotron{
+  width:95%;
+  text-align: center;
+}
+.e
+            {
+                border:1px solid;
+                width:100%;
+                border-collapse:collapse;
+            }
+            
+            .f
+            {
+                padding:0px;
+                border:2px solid #a4a4a4;
+                height:30px;
+                text-align:center;
+            }
+/* Fixed sidenav, full height */
+.sidenav 
+{
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  bottom: 7;
+  left: 0;
+  background-color: blue;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn 
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover 
+{
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main 
+{
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active 
+{
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container 
+{
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down 
+{
+  float: right;
+  padding-right: 8px;
+}
+          footer
+            {
+
+                padding:10px 0;
+
+                background-color:#101010;
+
+                color:#9d9d9d;
+
+                bottom:0;
+
+                width:100%;
+
+            }
+form.example input[type=text] 
+{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button 
+{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover 
+{
+  background: #0b7dda;
+}
+
+form.example::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
